@@ -2,8 +2,8 @@ import './App.css'
 import Header from './componentes/Header/Header'
 import Home from './componentes/Home/Home'
 import Footer from './componentes/Footer/Footer'
-// import Contato from './components/Contato/Contato'
-import {BrowserRouter as Router} from "react-router-dom";
+import Contato from './componentes/Contato/Contato'
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import BuscarDrinks from './componentes/API/BuscarDrinks';
 
 function App() {
@@ -11,10 +11,17 @@ function App() {
     <div className= "App">
       <Router>
         <Header />
-        {/* <Home /> */}
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/contato">
+            <Contato />
+          </Route>
         <BuscarDrinks className="content" />
-        <Footer />
+        </Switch>
         </Router>
+        <Footer />
     </div>
 
   );

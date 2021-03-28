@@ -1,6 +1,6 @@
 import React from "react"
 import './Header.css'
-import {BrowserRouter as Router, NavLink} from "react-router-dom"
+import {BrowserRouter as Router, NavLink, Link} from "react-router-dom"
 
 export default () => (
     <header> 
@@ -13,14 +13,14 @@ export default () => (
                     <li className="headerLi"> Sobre Nós
                         {/* <Link to="/sobreNos">Sobre Nós</Link> */}
                     </li>
-                    <li className="home"> Bons Drinks
-                        {/* <Link to="/home">Bons Drinks</Link> */}
+                    <li className="headerLi home">
+                        <Link to="/">Bons Drinks</Link>
                     </li>
                     <li className="headerLi"> Nosso Time
                         {/* <Link to="/nossoTime">Nosso Time</Link> */}
                     </li>
-                    <li className="headerLi"> Contato
-                        {/* <Link to="/contato">Contato</Link> */}
+                    <li className="headerLi">
+                        <Link to="/contato">Contato</Link>
                     </li>
 
                 </ul>

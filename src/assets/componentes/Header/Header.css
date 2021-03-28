@@ -25,14 +25,11 @@ header div {
     font-weight: bold;
     transition: 0.2s ease color;
     cursor: pointer;
+
 }
 
 .headerLi:hover{
     color: #f9ae48;
-}
-
-header:visited{
-    text-decoration: none;
 }
 
 .home{
@@ -40,3 +37,7 @@ header:visited{
     font-size: 36px;
     font-weight: 400;
 }
+
+/* .headerLi:visited{
+
+} */
