@@ -24,4 +24,21 @@
 .positionBotao {
     display:flex;
     justify-content: space-around;
+
+}
+ 
+.botao {
+    background-color: brown;
+    color: #fffdf8;
+    font-weight: 700;
+    padding: 8px 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 250px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    transition: 0.5s ease background-color;
 }
