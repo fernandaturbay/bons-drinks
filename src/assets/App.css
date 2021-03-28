@@ -1,0 +1,8 @@
+.App {
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-columns: 5fr;
+  grid-template-rows: 60px auto 40px;
+  background-color: #fffdf8;
+}
+

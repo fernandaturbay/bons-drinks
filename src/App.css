@@ -1,5 +1,0 @@
-.App {
-  display: grid;
-  grid-template-rows: 9vh minmax(85vh, auto) 6vh;
-  grid-template-areas: "header" "content" "footer";
-}

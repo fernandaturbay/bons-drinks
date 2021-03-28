@@ -2,12 +2,10 @@ header {
     background-color: #fffbef;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
     grid-area: header;
-    display: grid;
     place-items: center;
     z-index: 50;
     padding: 0 50px;
     margin-top: 5px;
-
 }
 
 header div {
@@ -15,13 +13,13 @@ header div {
     width: 100%;
 } 
 
-header ul {
+.headerlista {
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
 
-header ul li {
+.headerLi {
     color: #101010;
     font-size: 26px;
     font-weight: bold;
@@ -29,8 +27,12 @@ header ul li {
     cursor: pointer;
 }
 
-header ul li:hover{
+.headerLi:hover{
     color: #f9ae48;
+}
+
+header:visited{
+    text-decoration: none;
 }
 
 .home{

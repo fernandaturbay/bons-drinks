@@ -1,0 +1,27 @@
+.gridAPI {
+    display: grid;
+    grid-template-areas: "cabeca" "conteudoDrinks" ;
+    grid-template-rows: 3fr 5fr;
+
+}
+
+.cabecalho{
+    grid-area: cabeca;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteudoDrink {
+    grid-area: conteudoDrinks;
+}
+
+.drink1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.positionBotao {
+    display:flex;
+    justify-content: space-around;
+}

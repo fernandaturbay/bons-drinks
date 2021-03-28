@@ -1,0 +1,19 @@
+footer {
+    background-color: #fffbef;
+    grid-area: footer;
+    display: grid;
+    place-items: center;
+    /* z-index: 50;
+    padding: 0 50px;
+    margin-top: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px; */
+}
+
+/* footer div {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}  */
