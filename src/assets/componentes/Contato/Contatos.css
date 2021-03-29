@@ -1,4 +1,4 @@
-.form-grid{
+.formGrid{
     display: grid;
     grid-template-areas:
     "titulo titulo"
@@ -11,7 +11,7 @@
     margin:0 auto;
 }
 
-.form-foto{
+.formFoto{
     grid-area: 'foto';
     max-height: 400px;
     width: 550px;
@@ -24,11 +24,13 @@
     grid-area: 'form';
 }
 
-.form-titulo{
+.formTitulo{
     grid-area: 'titulo';
     grid-column: 1 / 3;
     display: block;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 30px;
+    margin-top: 30px;
+    color: #5C0511;
 }

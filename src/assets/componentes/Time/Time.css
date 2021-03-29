@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Open+Sans+Condensed:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.timePai {
+    display: grid;
+    grid-template-areas:
+    "titulo titulo titulo titulo"
+    "fotoClover clover fotoSam sam"
+    "fotoAlex alex fotoJerry jerry";
+    grid-template-rows: 80px 300px;
+    grid-template-columns: 0.5fr 2fr 0.5fr 1fr;
+    width: 80%;
+    grid-gap: 10px;
+    gap: 10px;
+    margin: 15px auto 80px;
+}
+
+.tituloTime {
+    grid-area: titulo;
+    text-align: center;
+    color: #5C0511;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.imagemTime {
+    width: 150px;
+}
+
+.nomeTime {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.descricaoTime {
+    font-family: "Open Sans";
+    color: #101010;
+    font-size: 15px;
+}
+
+.fotoClover {
+    grid-area: fotoClover;
+}
+
+.clover {
+    grid-area: clover;
+}
+
+.fotoSam {
+    grid-area: fotoSam;
+}
+
+.sam {
+    grid-area: sam;
+}
+
+.fotoAlex {
+    grid-area: fotoAlex;
+}
+
+.alex {
+    grid-area: alex;
+}
+
+.fotoJerry {
+    grid-area: fotoJerry;
+}
+
+.jerry {
+    grid-area: jerry;
+}

@@ -16,36 +16,13 @@
   font-size: 120px;
   font-weight: bold;
   margin-top: 10px;
+  animation-name: zoom;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
 }
 
-
-
-/* .main{
-
-  background: url(../../imagens/bg-bons-drinks.jpg) cover; 
-  grid-area: content;
-  grid-template-columns: 100%;
-  grid-template-rows: 100%;
-  justify-content: center;
+@keyframes zoom {
+    from {font-size: 50px;}
+    to {font-size: 120px;}
 }
-
-.background {
-  background-position: center;
-  background-repeat: no-repeat;
-  place-items: center;
-  display: grid;
-} 
-
-.main h1 {
-  text-align: center;
-  font-family: "Bilbo Swash Caps", cursive;
-  font-size: 120px;
-  color: #fffdf8;
-  margin-top: 15px;
-}
-
-.content {
-  grid-area: content;
-} */
-
 

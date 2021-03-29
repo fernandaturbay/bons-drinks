@@ -1,29 +1,18 @@
-import React from "react"
-import './Header.css'
-import {BrowserRouter as Router, NavLink, Link} from "react-router-dom"
+import React from "react";
+import { Link } from 'react-router-dom'
+import "./Header.css";
 
-export default () => (
-    <header> 
-            <div>
-                <ul className="headerlista">
-                    
-                    <li className="headerLi">Drinks
-                        {/* <Link to="/Drinks">Drinks</Link> */}
-                    </li>
-                    <li className="headerLi"> Sobre Nós
-                        {/* <Link to="/sobreNos">Sobre Nós</Link> */}
-                    </li>
-                    <li className="headerLi home">
-                        <Link to="/">Bons Drinks</Link>
-                    </li>
-                    <li className="headerLi"> Nosso Time
-                        {/* <Link to="/nossoTime">Nosso Time</Link> */}
-                    </li>
-                    <li className="headerLi">
-                        <Link to="/contato">Contato</Link>
-                    </li>
+const Header = ()=> {
+    return (
+        <header className="navegacao">
+        <nav className="NavHeader" />
+          <Link to="drinks" className = "NavHeaderItem">Drinks</Link>
+          <Link to="sobre" className = "NavHeaderItem">Sobre Nós</Link>
+          <Link to="/" className="home">Bons Drinks</Link>
+          <Link to="time" className = "NavHeaderItem">Nosso Time</Link>
+          <Link to="contato" className = "NavHeaderItem">Contato</Link>
+          </header>
 
-                </ul>
-            </div>
-        </header>
-)
+    )}
+
+    export default Header

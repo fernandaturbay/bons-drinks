@@ -20,13 +20,13 @@ export default function BuscarDrinks() {
                     <h1>DRINKS</h1>
                 </div>
                 <div className="positionBotao">
-                    <Botao estilo = "botao" noClick={busca} titulo = "Estou com sorte"/>
-                    <Botao estilo = "botao" titulo="Drinks Populares"/>
-                    <Botao estilo = "botao" titulo="Buscar Drinks"/>
+                    <Botao estilo = "botao" noClick={busca} titulo = "Roleta dos Drinks"/>
+                    {/* <Botao estilo = "botao" titulo="Drinks Populares"/>
+                    <Botao estilo = "botao" titulo="Buscar Drinks"/> */}
                 </div>
             </section>
             <section className="conteudoDrink">
-                <img src={dadosApi.strDrinkThumb}></img>
+                <img className="imagem" src={dadosApi.strDrinkThumb}></img>
                  <h1>
                      {dadosApi.strDrink}
                 </h1>

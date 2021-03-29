@@ -8,10 +8,10 @@ export default class Contatos extends Component {
 
     render() {
         return (
-            <main className="form-grid fade-in-left">
+            <main className="formGrid fade-in-left">
 
-                <h1 className="form-titulo">Contato</h1>
-                <img src={Foto} className="form-foto"></img>
+                <h1 className="formTitulo">Contato</h1>
+                <img src={Foto} className="formFoto"></img>
                 <Form className="form"/>
 
             </main>

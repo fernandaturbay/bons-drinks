@@ -1,4 +1,4 @@
-.form-wrapper{
+.formWrapper{
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -6,15 +6,15 @@
     align-self: start;
 }
 
-.form-item-nome{
+.formItem-nome{
     margin: 20px 0;
 }
 
-.form-item-email{
+.formItem-email{
     margin: 20px 0;
 }
 
-.form-item-mensagem{
+.formItem-mensagem{
     margin: 20px 0;
 }
 
@@ -25,11 +25,11 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.form-item-vazio{
+.formItem-vazio{
     grid-area: 'vazio';
 }
 
-.form-item-botao{
+.formItem-botao{
     grid-area: 'botao';
     font-size: 18px;
     font-weight: 700;

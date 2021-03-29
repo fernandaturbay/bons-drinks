@@ -1,6 +1,6 @@
 .gridAPI {
     display: grid;
-    grid-template-areas: "cabeca" "conteudoDrinks" ;
+    grid-template-areas: "cabeca" "conteudoDrink" ;
     grid-template-rows: 3fr 5fr;
 
 }
@@ -13,12 +13,22 @@
 }
 
 .conteudoDrink {
-    grid-area: conteudoDrinks;
+    grid-area: conteudoDrink;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.imagem{
+    width: 250px;
+    padding-top: 50px;
 }
 
 .drink1{
     text-align: center;
     margin-top: 40px;
+    
 }
 
 .positionBotao {
